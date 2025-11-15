@@ -20,6 +20,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Callahan Software Consulting - Business Data Dashboards & Analytics',
   description: 'Transform your business data into better decisions with clean dashboards, automated reports, and actionable insights.',
+  icons: {
+    icon: '/icon.svg',
+  },
 }
 
 export default function RootLayout({
