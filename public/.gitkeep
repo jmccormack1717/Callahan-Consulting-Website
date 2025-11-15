@@ -1,0 +1,4 @@
+# Public Assets
+
+Place static assets (images, icons, etc.) in this directory.
+They can be referenced directly in your components using paths starting with `/`.
