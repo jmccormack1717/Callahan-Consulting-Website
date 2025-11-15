@@ -136,7 +136,7 @@ export default function About() {
                 Co-Founder
               </h3>
               <p className="text-lg text-primary-gray leading-relaxed">
-                Published researcher in data science and predictive modeling, with professional software engineering experience. Builds dashboards using modern data science techniques and production-ready code.
+                Professional software engineer with published research in data science and predictive modeling. Builds dashboards that actually work, using the latest methods to make sure your solution is reliable and easy to use.
               </p>
             </div>
           </div>
