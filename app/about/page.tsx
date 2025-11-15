@@ -15,34 +15,59 @@ export default function About() {
       {/* Who We Are */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg text-primary-gray leading-relaxed mb-6">
+          <p className="text-xl text-primary-gray leading-relaxed mb-6 text-center">
             Callahan Software Consulting helps small and medium businesses unlock the power of their data through clean dashboards, automation, and analytics.
           </p>
-          <p className="text-lg text-primary-gray leading-relaxed mb-6">
-            We combine:
-          </p>
-          <ul className="space-y-3 mb-8 text-primary-gray">
-            <li className="flex items-start space-x-3">
-              <span className="text-primary-blue text-xl mt-1">•</span>
-              <span className="text-lg">Entrepreneurial insight</span>
-            </li>
-            <li className="flex items-start space-x-3">
-              <span className="text-primary-blue text-xl mt-1">•</span>
-              <span className="text-lg">Software engineering</span>
-            </li>
-            <li className="flex items-start space-x-3">
-              <span className="text-primary-blue text-xl mt-1">•</span>
-              <span className="text-lg">Data analytics expertise</span>
-            </li>
-          </ul>
-          <p className="text-lg text-primary-gray leading-relaxed">
-            This gives us a unique ability to understand your business, your risks, and your opportunities — then turn your data into decisions.
+          <p className="text-lg text-primary-gray leading-relaxed mb-6 text-center">
+            We're a new consulting firm bringing strong analytical expertise to small businesses. Every business deserves to understand their numbers, not just big corporations.
           </p>
         </div>
       </section>
 
-      {/* Our Mission */}
+      {/* Why We're Different */}
       <section className="py-16 px-4 bg-primary-light">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark mb-8 text-center">
+            Why We're Different
+          </h2>
+          <p className="text-lg text-primary-gray leading-relaxed mb-6 text-center">
+            Most data consulting companies work with Fortune 500 companies. We're focused on small businesses where every dollar matters, you need answers fast, and you can't afford expensive enterprise solutions.
+          </p>
+          <div className="bg-white p-8 rounded-lg">
+            <p className="text-lg text-primary-gray leading-relaxed mb-4">
+              <strong className="text-primary-dark">What we bring:</strong>
+            </p>
+            <ul className="space-y-3 text-primary-gray">
+              <li className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-lg">Strong analytical foundations (actuarial training and industry experience)</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-lg">Published research in data science and predictive modeling</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-lg">Professional software engineering experience</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-lg">Plain English explanations, no jargon</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-lg">Genuine enthusiasm for helping small businesses succeed</span>
+              </li>
+            </ul>
+            <p className="text-lg text-primary-gray leading-relaxed mt-6">
+              <strong className="text-primary-dark">Why being newer matters:</strong> As a new firm, we're eager to prove ourselves. That means you get our full attention, competitive pricing, and dashboards designed specifically for small businesses.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Mission */}
+      <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark mb-6 text-center">
             Our Mission
@@ -54,30 +79,30 @@ export default function About() {
       </section>
 
       {/* What We Believe */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-primary-light">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark mb-8 text-center">
             What We Believe
           </h2>
           <div className="space-y-4">
-            <div className="bg-primary-light p-6 rounded-lg">
+            <div className="bg-white p-6 rounded-lg">
               <p className="text-lg text-primary-gray">
-                Every business should have access to high-quality analytics
+                <strong className="text-primary-dark">Every business deserves powerful analytics.</strong> You shouldn't need a data analyst on staff or a $50,000 budget.
               </p>
             </div>
-            <div className="bg-primary-light p-6 rounded-lg">
+            <div className="bg-white p-6 rounded-lg">
               <p className="text-lg text-primary-gray">
-                Dashboards should be easy to use, not overwhelming
+                <strong className="text-primary-dark">Dashboards should be simple, not overwhelming.</strong> You're busy running a business. Our dashboards show you what matters in seconds.
               </p>
             </div>
-            <div className="bg-primary-light p-6 rounded-lg">
+            <div className="bg-white p-6 rounded-lg">
               <p className="text-lg text-primary-gray">
-                Insights should lead to action — and real results
+                <strong className="text-primary-dark">Insights should drive action.</strong> Pretty charts don't pay the bills. Every dashboard we build helps you make better decisions.
               </p>
             </div>
-            <div className="bg-primary-light p-6 rounded-lg">
+            <div className="bg-white p-6 rounded-lg">
               <p className="text-lg text-primary-gray">
-                Technology should simplify your life, not complicate it
+                <strong className="text-primary-dark">Quality analytics shouldn't cost a fortune.</strong> Strong analytical skills and modern techniques should be available to businesses of any size.
               </p>
             </div>
           </div>
@@ -85,29 +110,43 @@ export default function About() {
       </section>
 
       {/* Meet the Team */}
-      <section className="py-16 px-4 bg-primary-light">
+      <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark mb-8 text-center">
             Meet the Team
           </h2>
-          <p className="text-lg text-primary-gray leading-relaxed mb-6 text-center">
-            Callahan Software Consulting is built by two professionals passionate about helping businesses thrive through analytics:
+          <p className="text-lg text-primary-gray leading-relaxed mb-8 text-center">
+            Callahan Software Consulting is built by two professionals with strong analytical and technical backgrounds:
           </p>
-          <div className="bg-white p-8 rounded-lg mb-6">
-            <ul className="space-y-4 text-primary-gray">
-              <li className="flex items-start space-x-3">
-                <span className="text-primary-blue text-xl mt-1">•</span>
-                <span className="text-lg">A founder with a background in Entrepreneurship & Statistics</span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <span className="text-primary-blue text-xl mt-1">•</span>
-                <span className="text-lg">A cofounder with expertise in Computer Science & Data Analysis</span>
-              </li>
-            </ul>
+
+          <div className="space-y-8">
+            {/* Founder */}
+            <div className="bg-primary-light p-6 rounded-lg">
+              <h3 className="text-xl font-heading font-bold text-primary-dark mb-3">
+                Founder
+              </h3>
+              <p className="text-lg text-primary-gray leading-relaxed">
+                Actuarial intern at Berkshire Hathaway with experience in risk analysis, forecasting, and data-driven decision making. Brings actuarial rigor to small business dashboards.
+              </p>
+            </div>
+
+            {/* Co-Founder */}
+            <div className="bg-primary-light p-6 rounded-lg">
+              <h3 className="text-xl font-heading font-bold text-primary-dark mb-3">
+                Co-Founder
+              </h3>
+              <p className="text-lg text-primary-gray leading-relaxed">
+                Published researcher in data science and predictive modeling, with professional software engineering experience. Builds dashboards using modern data science techniques and production-ready code.
+              </p>
+            </div>
           </div>
-          <p className="text-lg text-primary-gray leading-relaxed text-center">
-            Together, we blend business understanding, technical skill, and analytical thinking to deliver powerful solutions for SMEs.
-          </p>
+
+          {/* Together */}
+          <div className="mt-8 bg-gradient-to-r from-primary-blue to-primary-dark text-white p-6 rounded-lg text-center">
+            <p className="text-lg text-primary-light leading-relaxed max-w-3xl mx-auto">
+              Together, we combine actuarial precision with modern data science and professional software engineering to deliver dashboards built with strong technical foundations. As a new firm, we're hungry to prove ourselves and committed to delivering real value.
+            </p>
+          </div>
         </div>
       </section>
 

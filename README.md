@@ -53,8 +53,6 @@ The static files will be in the `out/` directory, ready to deploy to:
 │   ├── page.tsx            # Home page
 │   ├── services/
 │   │   └── page.tsx        # Services page
-│   ├── portfolio/
-│   │   └── page.tsx        # Portfolio/Case Studies page
 │   ├── about/
 │   │   └── page.tsx        # About Us page
 │   ├── contact/

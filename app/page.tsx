@@ -7,108 +7,112 @@ export default function Home() {
       <section className="bg-gradient-to-br from-primary-blue to-primary-dark text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6">
-            Turn your Business Data into Better Decisions
+            Stop Guessing. See Your Business Performance in One Place.
           </h1>
-          <p className="text-xl md:text-2xl text-primary-light mb-8 max-w-3xl mx-auto">
-            We help small and medium businesses make smarter decisions through clear dashboards, automated reports, and actionable insights.
+          <p className="text-xl md:text-2xl text-primary-light mb-4 max-w-3xl mx-auto">
+            Custom dashboards for small businesses. See your sales, profit, inventory, and cash flow all in one place, updated automatically.
+          </p>
+          <p className="text-lg text-primary-light mb-8 max-w-2xl mx-auto">
+            No Excel spreadsheets. No manual updates. Just clear insights when you need them.
           </p>
           <Link href="/contact" className="btn-primary bg-white text-primary-blue hover:bg-primary-light text-lg inline-block">
-            Get a Free Demo
+            Get Free Consultation
           </Link>
         </div>
       </section>
 
-      {/* What We Do */}
+      {/* The Problem */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark mb-6">
-            What We Do
+            The Problem Most Small Businesses Face
           </h2>
-          <p className="text-lg text-primary-gray leading-relaxed mb-4">
-            At Callahan Software Consulting, we transform messy spreadsheets and scattered data into clean, reliable dashboards that drive real business results.
+          <p className="text-xl text-primary-gray leading-relaxed mb-4">
+            Running a business shouldn't mean spending hours in Excel or making decisions in the dark.
           </p>
           <p className="text-lg text-primary-gray leading-relaxed">
-            Whether you're tracking sales, expenses, inventory, or operations — we make your numbers easy to understand and impossible to ignore.
+            You need to know your numbers: are you profitable? Is cash flow healthy? What's selling? Most small businesses struggle to get clear answers fast.
           </p>
         </div>
       </section>
 
-      {/* Our Core Services */}
+      {/* The Solution */}
       <section className="py-16 px-4 bg-primary-light">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark text-center mb-12">
-            Our Core Services
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark mb-6">
+            What We Do
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-heading font-bold text-primary-dark mb-4">
-                Dashboard Development
-              </h3>
-              <p className="text-primary-gray leading-relaxed">
-                Interactive dashboards built to consolidate data insights
-              </p>
-            </div>
+          <p className="text-xl text-primary-gray leading-relaxed mb-4">
+            We build custom dashboards for small businesses.
+          </p>
+          <p className="text-lg text-primary-gray leading-relaxed mb-6">
+            Transform your messy spreadsheets into clean, easy-to-understand dashboards that update automatically. See sales, profit, inventory, and cash flow all in one place, whenever you need it.
+          </p>
+          <Link href="/services" className="text-primary-blue font-semibold hover:underline">
+            Learn more about our services →
+          </Link>
+        </div>
+      </section>
 
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-heading font-bold text-primary-dark mb-4">
-                Data Cleaning & Preparation
-              </h3>
-              <p className="text-primary-gray leading-relaxed">
-                We organize your data so it's accurate, consistent, and ready for analysis.
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-heading font-bold text-primary-dark mb-4">
-                Automated Reporting
-              </h3>
-              <p className="text-primary-gray leading-relaxed">
-                Stop updating spreadsheets manually. We automate your reports so they update themselves.
-              </p>
-            </div>
-
-            <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h3 className="text-2xl font-heading font-bold text-primary-dark mb-4">
-                Business Insights & Forecasting
-              </h3>
-              <p className="text-primary-gray leading-relaxed">
-                Get clear explanations, predictions, and insights to support smarter decisions.
-              </p>
+      {/* What You Get */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark text-center mb-12">
+            What You Get
+          </h2>
+          <div className="bg-primary-light p-8 rounded-lg">
+            <p className="text-xl text-primary-gray text-center mb-6 leading-relaxed">
+              A custom dashboard built for your business that:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">✓</span>
+                <span className="text-primary-gray">Shows your key metrics at a glance</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">✓</span>
+                <span className="text-primary-gray">Updates automatically (daily, weekly, or monthly)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">✓</span>
+                <span className="text-primary-gray">Works on any device (phone, tablet, computer)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">✓</span>
+                <span className="text-primary-gray">Includes training so you actually use it</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Small Businesses Choose Us */}
-      <section className="py-16 px-4 bg-white">
+      {/* Why Choose Us */}
+      <section className="py-16 px-4 bg-primary-light">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-dark text-center mb-12">
-            Why Small Businesses Choose Us
+            Why Choose Us
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-6 h-6 bg-primary-blue rounded-full mt-1"></div>
-              <p className="text-primary-gray text-lg">Fast turnaround times</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-6 h-6 bg-primary-blue rounded-full mt-1"></div>
-              <p className="text-primary-gray text-lg">Simple pricing</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-6 h-6 bg-primary-blue rounded-full mt-1"></div>
-              <p className="text-primary-gray text-lg">Clear communication</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-6 h-6 bg-primary-blue rounded-full mt-1"></div>
-              <p className="text-primary-gray text-lg">Real business value, not just pretty charts</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-6 h-6 bg-primary-blue rounded-full mt-1"></div>
-              <p className="text-primary-gray text-lg">Advanced analytics powered by expertise</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-6 h-6 bg-primary-blue rounded-full mt-1"></div>
-              <p className="text-primary-gray text-lg">Custom solutions built specifically for your business</p>
+          <div className="bg-white p-8 rounded-lg">
+            <p className="text-xl text-primary-gray text-center mb-6 leading-relaxed">
+              As a new firm, you get:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-primary-gray">Fast turnaround (2-3 weeks, not months)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-primary-gray">Competitive pricing for small businesses</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-primary-gray">Strong expertise (actuarial training + data science research)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <span className="text-primary-blue text-xl">•</span>
+                <span className="text-primary-gray">Your full attention (we're not juggling 50 clients)</span>
+              </div>
             </div>
           </div>
         </div>
@@ -118,13 +122,16 @@ export default function Home() {
       <section className="py-20 px-4 bg-gradient-to-br from-primary-blue to-primary-dark text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
-            Ready to understand your business like never before?
+            Ready to See Your Business Clearly?
           </h2>
-          <p className="text-xl text-primary-light mb-8">
-            Request a Free Demo Dashboard Today
+          <p className="text-xl text-primary-light mb-4">
+            Get a free consultation and see what's possible for your business.
+          </p>
+          <p className="text-lg text-primary-light mb-8 opacity-90">
+            No obligation. Just a conversation about what's possible.
           </p>
           <Link href="/contact" className="btn-primary bg-white text-primary-blue hover:bg-primary-light text-lg inline-block">
-            Get a Free Demo
+            Get Free Consultation
           </Link>
         </div>
       </section>

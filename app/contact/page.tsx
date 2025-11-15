@@ -45,10 +45,10 @@ export default function Contact() {
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
             Let's Work Together
           </h1>
-          <p className="text-xl text-primary-light">
+          <p className="text-xl text-primary-light mb-2">
             Have questions? Want a demo? Ready to start a project?
           </p>
-          <p className="text-lg text-primary-light mt-2">
+          <p className="text-lg text-primary-light">
             Send us a message and we'll get back to you within 24 hours.
           </p>
         </div>
@@ -147,7 +147,7 @@ export default function Contact() {
               disabled={isSubmitting}
               className={`w-full btn-primary text-lg ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
             >
-              {isSubmitting ? 'Submitting...' : 'Submit'}
+              {isSubmitting ? 'Submitting...' : 'Send Message'}
             </button>
           </form>
         </div>
@@ -155,13 +155,33 @@ export default function Contact() {
 
       {/* Additional Info */}
       <section className="py-16 px-4 bg-primary-light">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl font-heading font-bold text-primary-dark mb-4">
-            Prefer to reach out directly?
-          </h2>
-          <p className="text-lg text-primary-gray">
-            We're here to help transform your business data into better decisions.
-          </p>
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div>
+              <h3 className="text-lg font-heading font-bold text-primary-dark mb-2">
+                Fast Response
+              </h3>
+              <p className="text-primary-gray text-sm">
+                We typically respond within 24 hours
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-heading font-bold text-primary-dark mb-2">
+                Free Consultation
+              </h3>
+              <p className="text-primary-gray text-sm">
+                No obligation, just a conversation about your needs
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-heading font-bold text-primary-dark mb-2">
+                Ready to Help
+              </h3>
+              <p className="text-primary-gray text-sm">
+                We're here to answer any questions you have
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>
