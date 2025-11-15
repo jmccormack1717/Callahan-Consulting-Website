@@ -24,17 +24,36 @@ export default function Contact() {
     setIsSubmitting(true)
     setSubmitStatus('idle')
 
-    // Simulate form submission (in production, you'd send this to an API)
-    setTimeout(() => {
+    try {
+      const response = await fetch('https://formspree.io/f/xanaodjw', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          businessType: formData.businessType,
+          message: formData.message,
+        }),
+      })
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        setFormData({ name: '', email: '', businessType: '', message: '' })
+        
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setSubmitStatus('idle')
+        }, 5000)
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      setSubmitStatus('error')
+    } finally {
       setIsSubmitting(false)
-      setSubmitStatus('success')
-      setFormData({ name: '', email: '', businessType: '', message: '' })
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setSubmitStatus('idle')
-      }, 5000)
-    }, 1000)
+    }
   }
 
   return (
